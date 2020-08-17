@@ -127,4 +127,52 @@ clear
 printf "\e[1;32mRepositorio instalado..\n"
 sleep 4
 clear
+printf "\e[1;34mClonando repositorio FOTOSPLOIT..\n"
+sleep 4
+git clone https://github.com/Cesar-Hack-Gray/FotoSploit
+cd FotoSploit
+bash install.sh
+cd ..
+clear
+printf "\e[1;32mRepositorio instalado..\n"
+sleep 4
+clear
+printf "\e[1;34mClonando repositorio SocialPhish..\n"
+sleep 4
+git clone https://github.com/xHak9x/SocialPhish
+cd SocialPhish
+chmod +x socialphish.sh
+cd ..
+clear
+printf "\e[1;32mRepositorio instalado..\n"
+sleep 4
+clear
+printf "\e[1;34mClonando repositorio obfuscate..\n"
+sleep 4
+git clone https://github.com/Cesar-Hack-Gray/obfuscate
+ cd obfuscate
+ bash setup
+ cd ..
+ printf "\e[1;32mRepositorio instalado..\n"
+ sleep 4
+ clear
+ printf "\e[1;34mUltimo paso instalaremos metasploit en su termux\n"
+ sleep 4
+ printf "\e[1;31mAVISO: esta instalacion puede demorar hasta 20 minutos..\n"
+ sleep 10
+ clear
+ pkg install unstable-repo -y
+ pkg update -y
+ pkg install metasploit -y
+ clear
+ printf "\e[1;32mMetasploit instalado correctamente..\n"
+ sleep 4
+ pkg update -y
+ gem install wpscan 
+ clear
+ printf "\e[1;32mFIN DE LA INSTALACION...\n"
+ sleep 4
+  printf "\e[1;32mregalanos una estrella en github.. gracias..\n"
+ 
+
 
