@@ -4,10 +4,10 @@ Script automatizado para instalar herramientas de hacking en termux
 
 # Instalacion:
 
-git clone https://github.com/byteSalgado/Tools-hacker-termux/
-cd Tools-hacker-termux
-chmod +x install.sh
-./install.sh
+ * git clone https://github.com/byteSalgado/Tools-hacker-termux/
+* cd Tools-hacker-termux
+* chmod +x install.sh
+* ./install.sh
 
 # Tools:
 
